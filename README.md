@@ -1,6 +1,7 @@
 # EE322
 
-**Github Repo for EE322 - Design VI**
+**GitHub Repo for EE322 - Design VI**
+
 *These are italics!*
 
 >This is block quote.
