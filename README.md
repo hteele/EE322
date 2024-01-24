@@ -1,6 +1,7 @@
 # EE322
 
 **GitHub Repo for EE322 - Design VI**
+
 *Harrison Teele - c/o 2025*
 *B.E. in Computer Engineering, minor in Physics*
 
