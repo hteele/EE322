@@ -1,8 +1,8 @@
 # EE322
 
 **GitHub Repo for EE322 - Design VI**
-
-*These are italics!*
+*Harrison Teele - c/o 2025*
+*B.E. in Computer Engineering, minor in Physics*
 
 >This is block quote.
 >
