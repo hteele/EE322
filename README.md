@@ -5,22 +5,54 @@
 *Harrison Teele - c/o 2025*
 *B.E. in Computer Engineering, minor in Physics*
 
->This is block quote.
+>Hi, I'm Harry! This is my EE322 repository. This is also a block quote!
 >
 
-1. This
-2. Is
-3. An
-4. Ordered
-5. List
+Some of my favorite classes I've taken:
+1. E212 - Dynamical Systems
+2. PEP538 - Mechanics
+3. PEP542 - Electromagnetism
+4. MA134 - Discrete Math
 
-- This
-- Is
-- An
-- Unordered
-- List
+Some facts about me:
+- I help design the freshman design projects
+- I've marched drum corps for 5 years
+- I currently teach at Bridgewater-Raritan HS
+- I want to go into the embedded system/hardware industry
 
-  `print("This is sample code")`
+  Here's some code I wrote for my summer research:
+
+  `def haversine(grndLNG, grndLAT, satLNG, satLAT):
+    
+    earthRad = 6371 # km
+    
+    # grnd = LAT/LNG1, sat = LAT/LNG2
+    grndLNG_radians = radians(grndLNG) 
+    grndLAT_radians = radians(grndLAT)
+    satLNG_radians = radians(satLNG)
+    satLAT_radians = radians(satLAT)
+    
+    deltLAT = satLAT_radians - grndLAT_radians
+    deltLNG = satLNG_radians - grndLNG_radians
+    
+    a = sin(deltLAT/2)**2 + cos(grndLAT_radians)*cos(satLAT_radians) * (sin(deltLNG/2)**2)
+    c = 2 * atan2(sqrt(a), sqrt(1-a))
+    
+    dist = earthRad * c
+    return dist
+
+def fspl_nondb(distance, frequency):
+    result = ((4 * math.pi * (distance*1000) * (frequency*1000000))/(light))**2
+    return result
+
+def fspl_db(distance, frequency):
+    wave = light / (frequency*1000000)
+    result = 20*log10(distance*1000) + 20*log10(frequency*1000000) - 147.55
+    return result
+
+def signal_loss(pwr, fspldB):
+    result = pwr - fspldB
+    return result`
 
   ---
 
