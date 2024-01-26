@@ -41,20 +41,6 @@ Some facts about me:
     
     dist = earthRad * c
     return dist
-```
-def fspl_nondb(distance, frequency):
-    result = ((4 * math.pi * (distance*1000) * (frequency*1000000))/(light))**2
-    return result
-
-def fspl_db(distance, frequency):
-    wave = light / (frequency*1000000)
-    result = 20*log10(distance*1000) + 20*log10(frequency*1000000) - 147.55
-    return result
-
-def signal_loss(pwr, fspldB):
-    result = pwr - fspldB
-    return result
-
   ```
 
 
