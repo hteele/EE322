@@ -22,7 +22,8 @@ Some facts about me:
 
   Here's some code I wrote for my summer research:
 
-  `def haversine(grndLNG, grndLAT, satLNG, satLAT):
+  ```
+  def haversine(grndLNG, grndLAT, satLNG, satLAT):
     
     earthRad = 6371 # km
     
@@ -40,7 +41,7 @@ Some facts about me:
     
     dist = earthRad * c
     return dist
-
+```
 def fspl_nondb(distance, frequency):
     result = ((4 * math.pi * (distance*1000) * (frequency*1000000))/(light))**2
     return result
@@ -52,7 +53,10 @@ def fspl_db(distance, frequency):
 
 def signal_loss(pwr, fspldB):
     result = pwr - fspldB
-    return result`
+    return result
+
+  ```
+
 
   ---
 
