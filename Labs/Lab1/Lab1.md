@@ -2,7 +2,7 @@
 -------------------------------------------
 ## Installing GHDL and GTKWave
 
->After following the recommended video, I installed GHDL and GTKWave. GHDL is a hardware design language to analyze, process, and compile VHDL. GTKWave is a waveform viewer designed as a simulator to verify Verilog design.
+After following the recommended video, I installed GHDL and GTKWave. GHDL is a hardware design language to analyze, process, and compile VHDL. GTKWave is a waveform viewer designed as a simulator to verify Verilog design.
 
 ![Environment Variables to GTK and GHDL](path.png)
 
