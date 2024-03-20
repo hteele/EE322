@@ -17,3 +17,8 @@ While installing these I encountered an issue running any .py file. I figured ou
 `C:\PATH TO\Python\Python311\python.exe julian.py`
 
 ## Executable Description
+
+### julian.py
+
+julian.py displayed the current date as seen in the standard Gregorian calendar, and then the date in the Julian calendar format (time since the beginning of the Julian Period)
+![julian execution](pictures/julian.png)
