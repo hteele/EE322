@@ -24,5 +24,7 @@ After this, I created a Google Cloud IAM project and generated a key to use for 
 
 ![keygen](keygeneration.png)
 
+After runing ``cpu_spreadsheets.py``, I was successfully generating data onto the sheet and viewed it through the terminal!
+
 ![writetosheets](writetosheets.png)
 
